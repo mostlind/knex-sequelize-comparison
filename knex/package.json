@@ -1,0 +1,29 @@
+{
+  "name": "knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "mssql": "^5.0.5",
+    "sequelize": "^5.2.6",
+    "tedious": "^6.1.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "schema:migrate": "npx knex migrate:latest --knexfile knexfile.ts",
+    "schema:revert": "npx knex migrate:rollback --knexfile knexfile.ts",
+    "schema:create-migration": "npx knex migrate:make -x ts --knexfile knexfile.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}

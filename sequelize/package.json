@@ -1,0 +1,26 @@
+{
+  "name": "sequelize-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.2.6",
+    "sequelize-cli": "^5.4.0",
+    "sequelize-typescript": "^1.0.0-alpha.9",
+    "tedious": "^6.1.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
