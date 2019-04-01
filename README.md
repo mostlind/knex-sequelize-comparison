@@ -11,7 +11,7 @@
 
 ### `sequelize-typescript`
 
-The library `sequelize-typescript` alleviates a lot of the pain of setting up sequelize with typescript. In a previous project with sequelize and typescript without the `sequelize-typescript` library, defining models was very verbose and error prone due to having to separately inform each technology of the shape of the data. `sequelize-typescript` allows the definition of one decorated class per model which provides type information and everything sequelize needs to work.
+The library `sequelize-typescript` alleviates a lot of the pain of setting up sequelize with typescript. In a previous project with without the `sequelize-typescript` library, defining models was very verbose and error prone due to having to separately inform each technology of the shape of the data. `sequelize-typescript` allows the definition of one decorated class per model which provides type information and everything sequelize needs to work.
 
 #### Pros
 
